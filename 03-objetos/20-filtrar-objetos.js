@@ -5,3 +5,13 @@
 //
 // Escreva sua solução abaixo:
 
+const objetos = [
+    {nome:"Tv", preco: "5000"},
+    {nome:"geladeira", preco: "3000"},
+    {nome:"estojo", preco: "50"},
+    {nome:"caderno", preco: "75"},
+    {nome:"armario", preco: "1000"}
+]
+
+const objetoNovos = objetos.filter((elementos)=> elementos.preco >= 100);
+console.log(objetoNovos)

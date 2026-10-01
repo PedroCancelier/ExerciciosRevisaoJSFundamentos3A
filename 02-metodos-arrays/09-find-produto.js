@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+const preco = [
+    {nome: "computador", preco: 4000 },
+    {nome: "Teclado", preco: 350 },
+    {nome: "Celular", preco: 2500 },
+    {nome: "mouse", preco: 160 },
+  ]
+     
+
+const produtoEncontrado = preco.find(item => item.nome === "Teclado");
+
+console.log(produtoEncontrado);

@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+function saudacao(nome, periodo = "dia") {
+    console.log(`Bom ${periodo}, ${nome}!`);
+}
+
+saudacao("Pedro", "dia");
+saudacao("Pedro");

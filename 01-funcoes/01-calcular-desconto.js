@@ -7,3 +7,14 @@
 //
 // Escreva sua solução abaixo:
 
+
+
+
+
+function desconto (preço, desconto ) {
+    return preço - (preço * (desconto/100));
+    
+}
+
+const resultado = desconto(200,10);
+console.log(`Preço final: ${resultado}`)

@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+let produtoJSON = '{"nome":"Notebook","preco":3500,"estoque":8}';
+
+let produto = JSON.parse(produtoJSON);
+
+console.log(produto.nome);

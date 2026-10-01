@@ -5,3 +5,27 @@
 //
 // Escreva sua solução abaixo:
 
+class Pessoa {
+    constructor(nome) {
+        this.nome = nome;
+    }
+
+    apresentar() {
+        console.log(`Olá, meu nome é ${this.nome}.`);
+    }
+}
+
+class Funcionario extends Pessoa {
+    constructor(nome, cargo) {
+        super(nome);
+        this.cargo = cargo;
+    }
+
+    apresentar() {
+        console.log(`Olá, meu nome é ${this.nome} e sou ${this.cargo}.`);
+    }
+}
+
+let funcionario = new Funcionario("Pedro", "Desenvolvedor");
+
+funcionario.apresentar();

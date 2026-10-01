@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const idades = [19, 22, 18, 25, 30]
+
+const maioridade = idades.every((maior)=> maior >= 18 )
+console.log(maioridade)

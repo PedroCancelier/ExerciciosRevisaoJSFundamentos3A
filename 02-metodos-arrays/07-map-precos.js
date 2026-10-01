@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+ const reajustesPreco = [50, 100, 150, 200]
+
+ const novoReajuste = reajustesPreco.map((a)=> a + (a * (10/100)))
+ 
+ console.log(novoReajuste);
+
+//  50 + (50 * (10/100))

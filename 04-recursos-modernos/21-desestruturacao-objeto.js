@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const curso = { Curso: "Desenvolvimento de sistemas",cargaHoraria: "45 horas",modalidade: "Ead"}
+
+const{Curso, cargaHoraria,modalidade} = curso
+
+console.log(Curso, cargaHoraria, modalidade)

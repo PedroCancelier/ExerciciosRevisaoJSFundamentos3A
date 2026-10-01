@@ -6,3 +6,24 @@
 //
 // Escreva sua solução abaixo:
 
+let resposta = {
+    sucesso: true,
+    mensagem: "Produtos recebidos com sucesso",
+    dados: [
+        {
+            nome: "Notebook",
+            preco: 3500
+        },
+        {
+            nome: "Mouse",
+            preco: 100
+        }
+    ]
+};
+
+let respostaJSON = JSON.stringify(resposta);
+
+let respostaObjeto = JSON.parse(respostaJSON);
+
+console.log(respostaObjeto.mensagem);
+console.log(respostaObjeto.dados);

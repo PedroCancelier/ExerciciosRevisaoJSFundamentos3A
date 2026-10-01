@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const nome = ["Ana", "Carlos", "Beatriz", "Daniel"]
+
+const nomeEncontrado = nome.findIndex (item => item === "Beatriz");
+console.log(nomeEncontrado);

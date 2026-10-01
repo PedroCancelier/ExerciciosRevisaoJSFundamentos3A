@@ -5,3 +5,15 @@
 //
 // Escreva sua solução abaixo:
 
+function media(nota){
+    if(nota >= 7){
+       return "Aluno aprovado";
+    }else{
+       return "Aluno reprovado";
+    }
+
+
+}
+
+const resultado = media(7);
+console.log(`${resultado}`)

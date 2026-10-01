@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+function expression (Celsius){
+    return Celsius * 1.8 + 32
+}
+
+const resultado = expression (32);
+console.log(`A temperatura em Fahrenheit é ${resultado} `)

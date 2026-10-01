@@ -5,3 +5,5 @@
 //
 // Escreva sua solução abaixo:
 
+const nomes = ["1 - Pedro", "2 - Victoria", "3 - Julia", "4 - kauan", "5 - Manu"]
+nomes.forEach((nomes) => {console.log(nomes)});

@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+let pedido = {
+    numero: 1,
+    cliente: "Pedro",
+    valorTotal: 150
+};
+
+let pedidoJSON = JSON.stringify(pedido);
+
+console.log(pedidoJSON);

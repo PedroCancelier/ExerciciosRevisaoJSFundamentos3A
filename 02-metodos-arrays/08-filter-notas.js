@@ -4,3 +4,7 @@
 //
 // Escreva sua solução abaixo:
 
+const notas = [4, 7, 8, 5, 9, 6, 10]
+
+const novasNotas = notas.filter((a)=> a >=7);
+console.log(novasNotas)

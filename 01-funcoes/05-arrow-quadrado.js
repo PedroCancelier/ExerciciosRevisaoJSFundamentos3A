@@ -4,3 +4,9 @@
 //
 // Escreva sua solução abaixo:
 
+function arrow(numero){
+    return numero * numero
+}
+
+const resultado = arrow (8);
+console.log(`${resultado}`)

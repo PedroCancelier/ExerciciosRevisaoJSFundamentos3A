@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+let usuario = {
+    nome: "Pedro",
+    email: "pedro@email.com"
+};
+
+let novoUsuario = {
+    ...usuario,
+    ativo: true
+};
+
+console.log(novoUsuario);

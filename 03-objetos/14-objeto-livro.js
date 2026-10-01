@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const livro = {
+    titulo: "Hábitos Atõmicos",
+    autor: "Pedro Cancelier",
+    ano: "10",
+    Diponibilidade: "Disonível"
+}
+
+console.log(livro)

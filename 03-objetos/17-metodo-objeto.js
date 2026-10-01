@@ -4,3 +4,15 @@
 //
 // Escreva sua solução abaixo:
 
+const retangulo = {
+    largura: 100,
+    altura: 10,
+    calcularArea() {
+        return this.largura * this.altura;
+    }
+}
+
+const resultado = retangulo.calcularArea();
+console.log(resultado)
+
+

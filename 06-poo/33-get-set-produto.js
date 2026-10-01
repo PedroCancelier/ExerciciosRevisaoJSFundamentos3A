@@ -5,3 +5,24 @@
 //
 // Escreva sua solução abaixo:
 
+class Produto {
+    #preco = 0;
+
+    get preco() {
+        return this.#preco;
+    }
+
+    set preco(valor) {
+        if (valor >= 0) {
+            this.#preco = valor;
+        } else {
+            console.log("O preço não pode ser negativo");
+        }
+    }
+}
+
+let produto = new Produto();
+
+produto.preco = 3500;
+
+console.log(produto.preco);
